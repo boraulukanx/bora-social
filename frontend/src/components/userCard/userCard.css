@@ -1,0 +1,45 @@
+.UserCard {
+  border: 1px solid yellow;
+  height: 160px;
+  cursor: pointer;
+  background-color: lightblue;
+  margin: 30px;
+  border-radius: 16px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UserCard-Top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.userImage > img {
+  margin-right: 10px;
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+}
+
+.userEmail {
+  display: flex;
+}
+
+.UserCard .userUsername {
+  font-weight: 500;
+}
+
+.userFollowButton {
+  margin-top: 10px;
+  border: none;
+  background-color: #1872f2;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
